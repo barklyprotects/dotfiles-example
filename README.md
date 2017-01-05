@@ -8,18 +8,20 @@ Fork it for yourself for use with [strap](https://github.com/barklyprotects/stra
 
 
 ## Installation
-Customise the contents of [`gitconfig-user`](https://github.com/barklyprotects/dotfiles/blob/master/gitconfig-user).
+Fork this repo to your github account.  Go into settings, and change repository name to be "dotfiles"
+
+Customize the contents of [`gitconfig-user`](https://github.com/barklyprotects/dotfiles-example/blob/master/gitconfig-user).
 This is used for user-specific customisations of every other file.
 
-Run [`script/setup`](https://github.com/barklyprotects/dotfiles/blob/master/script/setup)
+Run [`script/setup`](https://github.com/barklyprotects/dotfiles-example/blob/master/script/setup)
 after checkout to symlink (or copy) everything in this directory to your home directory.
 
 ## Status
 I'm using these on all my personal machines.
 
-[![Build Status](https://travis-ci.org/barklyprotects/dotfiles.svg?branch=master)](https://travis-ci.org/barklyprotects/dotfiles)
+[![Build Status](https://travis-ci.org/barklyprotects/dotfiles-example.svg?branch=master)](https://travis-ci.org/barklyprotects/dotfiles-example)
 
 
 ## License
 These dot files are licensed under the [MIT License](http://en.wikipedia.org/wiki/MIT_License).
-The full license text is available in [LICENSE.txt](https://github.com/MikeMcQuaid/dotfiles/blob/master/LICENSE.txt).
+The full license text is available in [LICENSE.txt](https://github.com/MikeMcQuaid/dotfiles-example/blob/master/LICENSE.txt).

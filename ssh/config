@@ -1,0 +1,19 @@
+Host *.brew.sh
+	User brewadmin
+	ForwardAgent yes
+
+Host remote.github.net remote.github.com
+	ForwardAgent yes
+	User mikesplain
+
+Host *.github.com *.github.net *.githubapp.com
+	ForwardAgent no
+	User mikesplain
+
+Host *
+	StrictHostKeyChecking ask
+	VerifyHostKeyDNS ask
+	NoHostAuthenticationForLocalhost yes
+	IdentityFile ~/.ssh/id_rsa
+	ControlMaster auto
+	ControlPath /tmp/ssh-%r@%h:%p.socket

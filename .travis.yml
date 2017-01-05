@@ -1,0 +1,14 @@
+language: objective-c
+os: osx
+matrix:
+  include:
+  - os: linux
+script:
+- bash -n *.sh
+- "./script/setup"
+- export PS1
+- bash -c "source ~/.bashrc"
+- zsh -c "source ~/.zshrc"
+notifications:
+  slack:
+    secure: RfOF+W7tk86EGPvEwQtF47ABoE0E3n58bsbBrEsDD1HZ86OQYECzjPAC9qiaNG46++Zcr+Xe3S/KlwSLWq6wf3b3KYnlcIs1mO87hDnnJ+T6wUTGqnxgb1KgRqzKLJEtQ0h9LoN2bJ60NTIm9yo8vBdBi2UpZmPWh/sFcHEkNC6ab3Dy4ANtsYl7RVHLXUSbeAN6/8eGLWWmm9ITuofhyhkkO/TxKvL3mgeUW7yL06gq/OQTzgM5C3oxRAd3YEo5s5B35emk/r7dEMmIbCXjxpI72rte0b4EsLCGzivQxdEiywQOsmoUMpZhuhHIdePaAON9pVostriX+wUbxc3n8AFfA8j/hpGS6PVleVZB/PZtEFJCFwflpmXWYIL5KyJPlJGYwFakQnb0Al6/28jPPitfNuGWqrfw24fkq+XEr3JOqnCoUCSrq1c71FfKCei6jMpqqiYVVvtXbEL0NJV8H+wcAJ64hCa75fX+kOH3HtvZHSuUT/MHTeIX8wEFFqw2ChGQ0n2nEoYWmycj3RKEi9CZySd8dO3OOs19TiTysD1K30NaCN1tIPXiqt1yyVFvJaGc1jLo3p/gbWvnVxK7AsSJy7OtDWOZoJ5kyGBC4y3JGnAUQvkkrt8a4We8F7mZC7WHVK74QDoIKNcHz553dKculcaTUyNomeGDow5jjHg=

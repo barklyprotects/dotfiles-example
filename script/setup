@@ -48,3 +48,5 @@ fi
 
 # Install ohmyzsh
 . "$DOTFILESDIR/script/ohmyzsh.sh"
+
+echo "Setup Complete"
